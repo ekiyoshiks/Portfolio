@@ -22,14 +22,15 @@ const MOCK_CONTACTS = [
 
 export const HeroSection = () => {
     return (
-        <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end sm:pb-32 py-32 lg:pb-110px">
+        <section className="w-full lg:h-[800px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
             <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
                 <div className="w-full lg:max-w-[530px] flex flex-col gap-6">
-                    <p className="text-4xl font-medium mt-2 font-nono text-stone400">Enzo Kiyoshi</p>
-                    <h3>CS STUDENT  ~  PROFESSIONAL ATHLETE</h3>
-                
-                    <p className="text-stone400 my-6 text-sm sm:text-base">
-                        I'm a Computer Science student at Universidade Presbiteriana Mackenzie, with a technical degree in Artificial Intelligence from FECAP. My curiosity for technology started early — whenever I wasn't on a court, I was in front of a computer, exploring, learning, and building.
+                    <p className="font-mono text-sm text-stone-400">Hello, my name is</p>
+                    <h1 className="font-mono text-6xl font-bold -mt-2 text-stone400">Enzo Kiyoshi</h1>
+                    <h3 className="font-mono text-lg text-stone-400">CS STUDENT  ~  PROFESSIONAL ATHLETE</h3>
+
+                    <p className="font-mono text-stone400 my-1 text-sm sm:text-base">
+                        I'm a Computer Science student at Universidade Presbiteriana Mackenzie (UPM), with a technical degree in Artificial Intelligence from FECAP. My curiosity for technology started early — whenever I wasn't on a court, I was in front of a computer, exploring, learning, and building.
                     </p>
 
                     <div className="flex items-center gap-x-2 gap-y-3 flex-wrap lg:max-w-[340px]">
@@ -62,9 +63,9 @@ export const HeroSection = () => {
                 <Image
                     width={420}
                     height={404}
-                    src="/images/profile-pic.jpeg"
+                    src="/images/profile-pic1.jpg"
                     alt="Kiyoshi's Profile Picture"
-                    className="w-[300px] h-[300px] lg:w-[440px] lg:h-[440px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover "
+                    className="w-[300px] h-[300px] lg:w-[440px] lg:h-[440px] mb-6 lg:mb-0 shadow-2xl rounded-full object-cover "
                 />
 
             </div>
