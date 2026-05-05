@@ -4,6 +4,10 @@ export const KnowTechs = () => {
     return (
         <section className="container py-16">
             <SectionTitle subtitle="competencies" title="Skills" />
+        
+            <div>
+                
+            </div>
         </section>
     )
 }

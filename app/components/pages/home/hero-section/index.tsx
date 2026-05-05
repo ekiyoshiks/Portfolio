@@ -27,7 +27,7 @@ export const HeroSection = () => {
                 <div className="w-full lg:max-w-[530px] flex flex-col gap-6">
                     <p className="font-mono text-sm text-stone-400">Hello, my name is</p>
                     <h1 className="font-mono text-6xl font-bold -mt-2 text-stone400">Enzo Kiyoshi</h1>
-                    <h3 className="font-mono text-lg text-stone-400">CS STUDENT  ~  PROFESSIONAL ATHLETE</h3>
+                    <h3 className="font-mono text-lg text-stone-400">CS STUDENT  |  PROFESSIONAL ATHLETE</h3>
 
                     <p className="font-mono text-stone400 my-1 text-sm sm:text-base">
                         I'm a Computer Science student at Universidade Presbiteriana Mackenzie (UPM), with a technical degree in Artificial Intelligence from FECAP. My curiosity for technology started early — whenever I wasn't on a court, I was in front of a computer, exploring, learning, and building.
