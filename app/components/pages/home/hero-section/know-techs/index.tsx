@@ -1,6 +1,7 @@
 import { SectionTitle } from "@/app/components/section-title"
 import { KnowTech } from "./known-tech"
 import { TbBrandPython } from "react-icons/tb"
+import { HorizontalDivider } from "@/app/components/divider/horizontal"
 
 export const KnowTechs = () => {
     return (
@@ -16,6 +17,7 @@ export const KnowTechs = () => {
                     }} />
                 ))}
             </div>
+            
         </section>
     )
 }

@@ -41,7 +41,7 @@ export const HeroSection = () => {
 
                     <div className="flex sm:items-center gap-6 mt-6 lg:mt-10 sm:gap-5 flex-col sm:flex-row">
                         <button className="w-max shadow-button shadow-stone-600 px-4 py-3 rounded-lg flex items-center gap-2 justify-center bg-stone-500 text-white hover:bg-stone-400 transition-all disabled:opacity-50 disabled:cursor-not-allowed">
-                            Entra em contato
+                            Contact Now
                             <HiArrowNarrowRight size={18} />
                         </button>
 
