@@ -1,8 +1,0 @@
-/* Seletor de idioma: fixo no canto superior direito, sempre visível */
-.langsw{position:fixed;top:1rem;right:1.25rem;z-index:250;display:flex;align-items:center;gap:.1rem;padding:.28rem .35rem .28rem .7rem;border-radius:999px;background:var(--surf);border:1px solid var(--brd);box-shadow:0 6px 22px rgba(0,0,0,.28);transition:background var(--ease),border-color var(--ease)}
-.langsw>svg{flex:none;color:var(--txt2);margin-right:.35rem}
-.lb{background:none;border:none;cursor:pointer;font-family:inherit;font-size:.72rem;font-weight:700;letter-spacing:.08em;color:var(--txt2);padding:.32rem .6rem;border-radius:999px;transition:background var(--ease),color var(--ease)}
-.lb:hover{color:var(--txt);background:var(--muted)}
-.lb.on{background:var(--txt);color:var(--bg)}
-.lb:focus-visible{outline:2px solid var(--txt2);outline-offset:1px}
-@media(max-width:768px){.langsw{top:.85rem;right:.75rem;padding:.22rem .28rem .22rem .55rem}.langsw>svg{display:none}.lb{padding:.3rem .5rem;font-size:.68rem}}
