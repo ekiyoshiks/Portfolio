@@ -1,0 +1,8 @@
+/* Ajustes para tablet e celular (compartilhado entre as páginas) */
+@media(max-width:768px){
+  .sb{transform:translateX(-100%)}
+  .sb.open{transform:translateX(0)}
+  .hbg{display:flex}
+  .main{margin-left:0}
+  .sec{padding:4rem 0}
+}

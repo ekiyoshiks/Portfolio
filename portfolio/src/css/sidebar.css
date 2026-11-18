@@ -1,0 +1,15 @@
+/* Barra lateral com ícones, tooltips e menu hambúrguer (mobile) */
+.sb{position:fixed;top:0;left:0;bottom:0;width:var(--sw);z-index:200;background:var(--sb);border-right:1px solid var(--brdl);display:flex;flex-direction:column;align-items:center;padding:1.2rem 0 1.5rem;transition:background var(--ease),transform .3s ease}
+.sb-logo{font-family:Georgia,serif;font-size:1.1rem;font-weight:600;color:var(--txt);margin-bottom:2rem;opacity:.9}
+.sb-logo:hover{opacity:.5}
+.sb-nav{display:flex;flex-direction:column;gap:.5rem;flex:1}
+.sb-link{position:relative;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;color:var(--txt3);border:1px solid transparent;transition:all var(--ease)}
+.sb-link:hover,.sb-link.on{color:var(--txt);background:var(--muted);border-color:var(--brd)}
+.sb-tip{position:absolute;left:calc(100% + 12px);top:50%;transform:translateY(-50%);background:var(--surf);border:1px solid var(--brd);color:var(--txt);padding:4px 10px;border-radius:6px;font-size:.75rem;font-weight:500;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.sb-link:hover .sb-tip{opacity:1}
+.sb-theme{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:transparent;border:1px solid var(--brdl);color:var(--txt2);cursor:pointer;margin-top:auto;transition:all var(--ease)}
+.sb-theme:hover{background:var(--muted);color:var(--txt);border-color:var(--brd)}
+.hbg{display:none;position:fixed;top:1rem;left:1rem;z-index:300;flex-direction:column;gap:5px;background:var(--surf);border:1px solid var(--brd);border-radius:6px;padding:8px 10px;cursor:pointer}
+.hbg span{display:block;width:18px;height:1.5px;background:var(--txt)}
+.ov{display:none;position:fixed;inset:0;z-index:190;background:rgba(0,0,0,.55)}
+.ov.show{display:block}
