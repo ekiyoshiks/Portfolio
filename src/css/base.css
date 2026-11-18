@@ -1,0 +1,16 @@
+/* Variáveis de tema (escuro = padrão), reset e tipografia base */
+:root{
+  --bg:#0d0d0d;--surf:#141414;--muted:#1c1c1c;
+  --brd:#2c2c2c;--brdl:#1e1e1e;
+  --txt:#efefef;--txt2:#888;--txt3:#444;
+  --sb:#111;--r:10px;--ease:.25s ease;--sw:64px;
+}
+[data-theme=light]{
+  --bg:#f5f3ee;--surf:#fff;--muted:#edebe6;
+  --brd:#d8d4cc;--brdl:#e8e4dc;
+  --txt:#111;--txt2:#555;--txt3:#999;--sb:#fff;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--txt);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background var(--ease),color var(--ease)}
+a{text-decoration:none;color:inherit}
